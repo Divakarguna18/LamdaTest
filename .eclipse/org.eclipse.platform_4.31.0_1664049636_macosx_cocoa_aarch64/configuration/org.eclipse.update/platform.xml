@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1717137821633" transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" version="3.0">
+	<site updateable="true" url="file:/Users/dgunasekhar/.eclipse/org.eclipse.platform_4.31.0_1664049636_macosx_cocoa_aarch64/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.testng.eclipse.maven.feature" version="7.10.0.202404131040" url="features/org.testng.eclipse.maven.feature_7.10.0.202404131040/">
+		</feature>
+		<feature id="org.testng.eclipse" version="7.10.0.202404131040" url="features/org.testng.eclipse_7.10.0.202404131040/">
+		</feature>
+		<feature id="org.testng.p2.feature" version="7.4.0.r202105021533" url="features/org.testng.p2.feature_7.4.0.r202105021533/">
+		</feature>
+	</site>
+</config>
