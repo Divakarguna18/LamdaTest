@@ -1,104 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
-<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1717137816070'/>
+    <property name='p2.timestamp' value='1718692477285'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='16'>
-    <artifact classifier='osgi.bundle' id='org.apache-extras.beanshell.bsh' version='2.0.0.b6'>
-      <properties size='1'>
-        <property name='download.size' value='393343'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.beust.jcommander.source' version='1.78.0'>
-      <properties size='1'>
-        <property name='download.size' value='68250'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.webjars.jquery' version='3.5.1'>
-      <properties size='1'>
-        <property name='download.size' value='313439'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.testng.eclipse' version='7.10.0.202404131040'>
-      <properties size='1'>
-        <property name='download.size' value='970110'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.yaml.snakeyaml' version='1.21.0'>
-      <properties size='1'>
-        <property name='download.size' value='299308'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.webjars.jquery.source' version='3.5.1'>
-      <properties size='1'>
-        <property name='download.size' value='3832'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.apache-extras.beanshell.bsh.source' version='2.0.0.b6'>
-      <properties size='1'>
-        <property name='download.size' value='302812'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.testng.eclipse.maven.feature' version='7.10.0.202404131040'>
-      <properties size='1'>
-        <property name='download.size' value='4406'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.testng.source' version='7.4.0.r202105021533'>
-      <properties size='1'>
-        <property name='download.size' value='500592'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.beust.jcommander' version='1.78.0'>
-      <properties size='1'>
-        <property name='download.size' value='85174'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.testng' version='7.4.0.r202105021533'>
-      <properties size='1'>
-        <property name='download.size' value='939622'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.testng.eclipse.maven' version='7.10.0.202404131040'>
-      <properties size='1'>
-        <property name='download.size' value='18963'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.testng.eclipse' version='7.10.0.202404131040'>
-      <properties size='1'>
-        <property name='download.size' value='4537'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.google.guava' version='21.0.0.v20170206-1425'>
-      <properties size='1'>
-        <property name='download.size' value='2675014'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.yaml.snakeyaml.source' version='1.21.0'>
-      <properties size='1'>
-        <property name='download.size' value='189789'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.testng.p2.feature' version='7.4.0.r202105021533'>
-      <properties size='1'>
-        <property name='download.size' value='444'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-  </artifacts>
+  <artifacts size='0'/>
 </repository>
